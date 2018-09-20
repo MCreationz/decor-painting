@@ -45,8 +45,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.primary-color {
 	top: 38px;
 }
 ul.navbar-nav {
-    position: absolute;
-    right: 0px;
+	position: absolute;
+	right: 0px;
 }
 .icon{
 
@@ -155,10 +155,10 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 	right: 48px;
 }
 .col-sm-6.social_icons[_ngcontent-c0] {
-	position: absolute;
-	bottom: 18px;
-	left:-104px;
-	z-index: 9999;
+    position: absolute;
+    bottom: 64px;
+    left: -17%;
+    z-index: 9999;
 }
 .social_icons li{
 	list-style: none;
@@ -258,22 +258,6 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 	bottom: -9%;
 	left: 57%;
 }
-/deep/.carousel-indicators li{
-	
-}
-/*/deep/.carousel-control-next-icon{
-	position: absolute;
-    bottom: -32px;
-    float: right;
-    right: 5px;
-}
-/deep/.carousel-control-prev-icon{
-	position: absolute;
-    bottom: -7px;
-    float: right;
-    right: -20px;
-}
-*/
 .example-small-box, .example-large-box {
 	display: flex;
 	align-items: center;
@@ -319,109 +303,122 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 
 
 /*responsive view */
-@media (min-width: 320px) and (max-width: 480px) { 
-	.inner-decor-section[_ngcontent-c0] {
-		float: left;
-		position: absolute;
-		width: 100%;
-		top: 71px;
-		left: 2px;
-	}
-	.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0] {
-		font-size: 25px;
-	}
-	.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
-		left: 14px;
-		font-size: 29px
-	}
-	nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
-		top: 14px;
-	}
-	button.btn.read-btn.waves-light[_ngcontent-c0]{
-		font-size: 15px;
-		margin-top: 0px;
+	@media (min-width: 320px) and (max-width: 480px) { 
+		.inner-decor-section[_ngcontent-c0] {
+			float: left;
+			position: absolute;
+			width: 100%;
+			top: 71px;
+			left: 2px;
+		}
+		.inner-decor-section h1 {
+		    font-size: 25px;
+		    width: 79%;
+		}
+		.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
+			left: 14px;
+			font-size: 29px
+		}
+		nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
+			top: 14px;
+		}
+		button.btn.read-btn.waves-light[_ngcontent-c0]{
+			font-size: 15px;
+			margin-top: 0px;
 
-	}
-	button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
-		font-size: 15px;
-		margin-top: 0px;
-	}
-	.container.image_slider{
-		right: 0px;
-	}
-	.text-section[_ngcontent-c0]{
-		height:50vh;
-	}
-	/deep/.carousel-inner{
-		height:50vh;
-		top: 84px;;
-		padding-right:20px;
-	}
-	.slider-section[_ngcontent-c0]{
-		height:50vh;
-		top:84px;
-	}
-	.slide-img{
-		width:100%;
-	}
-	.plus-icon[_ngcontent-c0] {
-		background-color: #df573f;
-		font-size: 31px;
-		color: white;
-		position: absolute;
-		border-radius: 100%;
-		padding: 22px 22px 21px 20px;
-		right: 43%;
-		z-index: 999999;
-		bottom: -24%;
-	}
-	.col-sm-6.social_icons[_ngcontent-c0] {
-		position: absolute;
-		bottom: -70px;
-		left: -28px;
-		z-index: 999999999;
-	}
-	/deep/span.icon-prev.carousel-control-prev-icon {
-		/*bottom: -55px;*/
-		position: absolute;
-		left: 0px;
-		bottom: -7%;
-	}
-	ul.navbar-nav {
-		float: right;
-		position: absolute;
-		right: 0px;
-	}
-	
-	/deep/span.icon-next.carousel-control-next-icon {
-		position: absolute;
-		bottom: -7%;
-		right: 35%;
-	}
-	/deep/.carousel-indicators {
-		right: 25px;
-		bottom: -11%;
-		left: 0px;
-	}
-	.social-network[_ngcontent-c0] {
-		float: right;
-		position: absolute;
-		right: 8px;
-		bottom: 84px;
-	}
-	/deep/span.icon-next.carousel-control-next-icon::before{
-		font-size:16px;
-	}
-	/deep/span.icon-prev.carousel-control-prev-icon::after{
-		font-size:16px;
-	}
-	.creative-txt[_ngcontent-c0]{
-		font-size: 15px;
-	}
-	/*.collapse{
-		display:inline-block;
+		}
+		button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
+			font-size: 15px;
+			margin-top: 0px;
+		}
+		.container.image_slider{
+			right: 0px;
+		}
+		.text-section[_ngcontent-c0]{
+			height:423px;
+		}
+		/deep/.carousel-inner{
+			height:auto;
+			top: 45px;;
+			padding-right:20px;
+		}
+		.slider-section[_ngcontent-c0]{
+			height:auto;
+			top:45px;
+			background-color: transparent;
+		}
+		.social-network li {
+    		color: rgba(0,0,0,.87);
+		}
+		.slide-img{
+			width:100%;
+		}
+		.plus-icon {
+			background-color: #df573f;
+			font-size: 31px;
+			color: white;
+			position: absolute;
+			border-radius: 100%;
+			padding: 9px 13px 10px 11px;
+			right: 46%;
+			z-index: 999999;
+			bottom: -35%;
+		}
+		.col-sm-6.social_icons {
+			position: unset !important;
+			left: unset !important;
+			z-index: 999999999 !important;
+			bottom: unset !important;
+		}
+		.col-sm-6.social_icons  ul{width: 241px;
+			margin: 0px auto;
+			padding: 0px;
+    		float: none;
+    	}
+    	.container.image_slider[_ngcontent-c0] {
+    		position: unset;
+    	}
 
-		}*/
+
+		/deep/span.icon-prev.carousel-control-prev-icon {
+			bottom: 50px;
+		    left: 1%;
+		    position: absolute;
+		    opacity: 1;
+		}
+		ul.navbar-nav {
+			float: right;
+			position: absolute;
+			right: 0px;
+		}
+
+		/deep/span.icon-next.carousel-control-next-icon {
+			bottom: 50px;
+		    right: 37%;
+		    position: absolute;
+		    opacity: 1;
+		}
+		/deep/.carousel-indicators {
+		    right: auto;
+		    bottom: 14px;
+		    position: absolute;
+		    left: 19%;
+		}
+		.social-network[_ngcontent-c0] {
+			float: right;
+			position: fixed;
+			right: 15px;
+			bottom: 149px;
+		}
+		/deep/span.icon-next.carousel-control-next-icon::before{
+			font-size:16px;
+		}
+		/deep/span.icon-prev.carousel-control-prev-icon::after{
+			font-size:16px;
+		}
+		.creative-txt[_ngcontent-c0]{
+			font-size: 15px;
+		}
 		ul.navbar-nav {
 			float: right;
 			display: inline-block;
@@ -434,18 +431,10 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 
 		.example-large-box[_ngcontent-c0] {
-			height: 159px !important;
+			height: 133px !important;
 		}
 		.icons-wall[_ngcontent-c0] {
 			background-color: transparent;
-		}
-		.navbar-toggler {
-			background-color: #92c3f7;
-			color: #f8f9fa;
-			border-color: #343a40;
-			float: right;
-			position: absolute;
-			right: 0px;
 		}
 		div#basicExampleNav {
 			padding-top: 36px;
@@ -457,9 +446,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		.icon[_ngcontent-c0] {
 			font-size: 17px;
 		}
-		.artdesign[_ngcontent-c0] {
+		.artdesign[_ngcontent-c0][_ngcontent-c0] {
 			font-family: myriadpro;
-			font-size: 13px;
+			font-size: 10px;
 		}
 		.artwork[_ngcontent-c0] {
 			font-family: myriadpro;
@@ -467,23 +456,25 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			padding-left: 20px;
 		}
 		.carousel-caption[_ngcontent-c0]{
-			bottom: -56px;
+			bottom: 0px;
 		}
 	}
-	@media (min-width: 481px) and (max-width: 767px) { 
+	@media (min-width: 481px) and (max-width: 575px) {
 		.inner-decor-section[_ngcontent-c0] {
 			float: left;
 			position: absolute;
 			width: 100%;
-			top: 55px;
+			top: 100px;
 			left: 2px;
 		}
 		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0] {
-			font-size: 35px;
+			font-size: 34px;
+			padding-left: 20px;
+			width: 87%;
 		}
 		.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
-			left: 32px;
-			font-size: 34px;
+			left: 14px;
+			font-size: 29px
 		}
 		nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
 			top: 14px;
@@ -495,64 +486,86 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 		button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
 			font-size: 15px;
+			margin-top: 0px;
 		}
 		.container.image_slider{
 			right: 0px;
 		}
 		.text-section[_ngcontent-c0]{
-			height:50vh;
+			height:501px;
 		}
 		/deep/.carousel-inner{
-			height:50vh;
-			top: 135px;
+			height:auto;
+			top: 45px;;
 			padding-right:20px;
 		}
 		.slider-section[_ngcontent-c0]{
-			height: 65vh;;
-			top: 135px;
+			height:auto;
+			top:45px;
+			background-color: transparent;
+		}
+		.social-network li {
+    		color: rgba(0,0,0,.87);
 		}
 		.slide-img{
 			width:100%;
 		}
-		.plus-icon[_ngcontent-c0] {
+		.plus-icon {
 			background-color: #df573f;
 			font-size: 31px;
 			color: white;
 			position: absolute;
 			border-radius: 100%;
-			padding: 22px 22px 21px 20px;
-			right: 214px;
-			z-index: 999999;
-			bottom: -114px;
+			padding: 9px 13px 10px 11px;
+			right: 50%;
+		    z-index: 999999;
+		    bottom: -29%;
 		}
-		.col-sm-6.social_icons[_ngcontent-c0] {
-			position: absolute;
-			bottom: -124px;
-			left: 42px;
-			z-index: 999999999;
+		.col-sm-6.social_icons {
+			position: unset !important;
+			left: unset !important;
+			z-index: 999999999 !important;
+			bottom: unset !important;
 		}
+		.col-sm-6.social_icons  ul{width: 241px;
+			margin: 0px auto;
+			padding: 0px;
+    		float: none;
+    	}
+    	.container.image_slider {
+    		position: unset;
+    	}
+
+
 		/deep/span.icon-prev.carousel-control-prev-icon {
-			bottom: -55px;
-			position: absolute;
-			left: 0px;
-			bttom: -300px;
-			bottom: -164px;
+			bottom: 50px;
+		    left: 1%;
+		    position: absolute;
+		    opacity: 1;
 		}
-		/deep/span.icon-next.carousel-control-next-icon {
-			position: absolute;
-			bottom: -164px;
-			right: 12px;
-		}
-		/deep/.carousel-indicators {
-			right: 0;
-			bottom: -43%;
-			left: -10px;
-		}
-		.social-network[_ngcontent-c0] {
+		ul.navbar-nav {
 			float: right;
 			position: absolute;
-			right: 8px;
-			bottom: -71px;
+			right: 0px;
+		}
+
+		/deep/span.icon-next.carousel-control-next-icon {
+			bottom: 50px;
+		    right: 37%;
+		    position: absolute;
+		    opacity: 1;
+		}
+		/deep/.carousel-indicators {
+		    right: auto;
+		    bottom: 14px;
+		    position: absolute;
+		    left: 19%;
+		}
+		.social-network{
+			float: right;
+			position: fixed;
+			right: 15px;
+			bottom: 149px;
 		}
 		/deep/span.icon-next.carousel-control-next-icon::before{
 			font-size:16px;
@@ -563,32 +576,387 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		.creative-txt[_ngcontent-c0]{
 			font-size: 15px;
 		}
-	/*.collapse{
-		display:inline-block;
-
-		}*/
+		ul.navbar-nav {
+			float: right;
+			display: inline-block;
+			position: absolute;
+			right: 8px;
+			bottom:-14px;
+		}
 		nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
 			width: 98%;
 		}
+
+		.example-large-box[_ngcontent-c0] {
+			height: 169px !important;
+		}
+		.icons-wall[_ngcontent-c0] {
+			background-color: transparent;
+		}
 		div#basicExampleNav {
-			display: inline-block;
+			padding-top: 36px;
 		}
-		#basicExampleNav li{
-			float:left;
-			display:inline-block;
+		.navbar-nav[_ngcontent-c0] li[_ngcontent-c0] {
+			display: inline-block !important;
+			padding-left: 20px;
 		}
-		.example-large-box{
-			height: 197px !important;
-			width: 300px !important;
+		.icon[_ngcontent-c0] {
+			font-size: 17px;
+		}
+		.artdesign[_ngcontent-c0][_ngcontent-c0] {
+			font-family: myriadpro;
+			font-size: 10px;
 		}
 		.artwork[_ngcontent-c0] {
 			font-family: myriadpro;
-			font-size: 26px;
+			font-size: 21px;
 			padding-left: 20px;
 		}
-		.mat-ink-bar{
-			width: 95px;
-			left:13px;
+		.carousel-caption{
+			bottom: 0px;
+		}
+	}
+	@media (min-width: 576px) and (max-width: 767px) {
+		.inner-decor-section[_ngcontent-c0] {
+			float: left;
+			position: absolute;
+			width: 100%;
+			top: 100px;
+			left: 61px;
+		}
+		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0] {
+			font-size: 34px;
+			padding-left: 20px;
+		}
+		.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
+			left: 14px;
+			font-size: 29px
+		}
+		nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
+			top: 14px;
+		}
+		button.btn.read-btn.waves-light[_ngcontent-c0]{
+			font-size: 15px;
+			margin-top: 0px;
+			width: 110px;
+				height: 48px;
+				margin-left: 31px;
+
+		}
+		button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
+			font-size: 15px;
+			margin-top: 0px;
+			width: 110px;
+				height: 48px;
+		}
+		.container.image_slider{
+			right: 0px;
+		}
+		.text-section{
+			height:550px;
+			width: 100%;
+		}
+		/deep/.carousel-inner{
+			height:auto;
+			top: 45px;;
+			padding-right:20px;
+		}
+		.slider-section{
+			height:auto;
+			top:45px;
+			background-color: transparent;
+		}
+		.social-network li {
+    		color: rgba(0,0,0,.87);
+		}
+		.slide-img{
+			width:100%;
+		}
+		.plus-icon {
+			background-color: #df573f;
+			font-size: 31px;
+			color: white;
+			position: absolute;
+			border-radius: 100%;
+			padding: 9px 13px 10px 11px;
+			right: 28%;
+		    z-index: 999999;
+		    bottom: -40%;
+		}
+		.col-sm-6.social_icons {
+			position: unset !important;
+			left: unset !important;
+			z-index: 999999999 !important;
+			bottom: unset !important;
+		}
+		.col-sm-6.social_icons  ul{width: 241px;
+			margin: 0px auto;
+			padding: 0px;
+    		float: none;
+    	}
+    	.container.image_slider {
+    		position: unset;
+    	}
+
+
+		/deep/span.icon-prev.carousel-control-prev-icon {
+			bottom: 50px;
+		    left: 1%;
+		    position: absolute;
+		    opacity: 1;
+		}
+		ul.navbar-nav {
+			float: right;
+			position: absolute;
+			right: 0px;
 		}
 
+		/deep/span.icon-next.carousel-control-next-icon {
+			bottom: 50px;
+		    right: 37%;
+		    position: absolute;
+		    opacity: 1;
+		}
+		/deep/.carousel-indicators {
+		    right: auto;
+		    bottom: 14px;
+		    position: absolute;
+		    left: 19%;
+		}
+		.social-network{
+			float: right;
+			position: fixed;
+			right: 15px;
+			bottom: 149px;
+		}
+		/deep/span.icon-next.carousel-control-next-icon::before{
+			font-size:16px;
+		}
+		/deep/span.icon-prev.carousel-control-prev-icon::after{
+			font-size:16px;
+		}
+		.creative-txt[_ngcontent-c0]{
+			font-size: 15px;
+		}
+		ul.navbar-nav {
+			float: right;
+			display: inline-block;
+			position: absolute;
+			right: 8px;
+			bottom:-14px;
+		}
+		nav.navbar.navbar-expand-lg.navbar-dark.primary-color[_ngcontent-c0]{
+			width: 98%;
+		}
+
+		.example-large-box[_ngcontent-c0] {
+			height: 144px !important;
+		}
+		.icons-wall[_ngcontent-c0] {
+			background-color: transparent;
+		}
+		div#basicExampleNav {
+			padding-top: 36px;
+		}
+		.navbar-nav[_ngcontent-c0] li[_ngcontent-c0] {
+			display: inline-block !important;
+			padding-left: 20px;
+		}
+		.icon[_ngcontent-c0] {
+			font-size: 17px;
+		}
+		.artdesign[_ngcontent-c0][_ngcontent-c0] {
+			font-family: myriadpro;
+			font-size: 10px;
+		}
+		.artwork[_ngcontent-c0] {
+			font-family: myriadpro;
+			font-size: 21px;
+			padding-left: 20px;
+		}
+		.carousel-caption{
+			bottom: 0px;
+		}
+
+	}
+	@media (min-width: 768px) and (max-width: 900px) {
+
+		.inner-decor-section[_ngcontent-c0] {
+		    float: left;
+		    position: absolute;
+		    width: 100%;
+		    top: 146px;
+		    left: 0px;
+		}
+		div#basicExampleNav {
+			padding-top: 36px;
+		}
+		.navbar-nav[_ngcontent-c0] li[_ngcontent-c0] {
+			display: inline-block !important;
+			padding-left: 20px;
+		}
+		.plus-icon[_ngcontent-c0]{
+			right: -1%;
+		    z-index: 999999;
+		    bottom: 1%;
+		}
+		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0]{
+			font-size: 39px;
+			width: 86%;
+		}
+		ul.navbar-nav[_ngcontent-c0] {
+		    position: absolute;
+		    right: 0px;
+		    display: inline-block;
+		    top: -14px;
+		}
+		/deep/span.icon-prev.carousel-control-prev-icon {
+		    bottom: 93px;
+		    position: absolute;
+		    left: 0px;
+		}
+		/deep/span.icon-next.carousel-control-next-icon {
+		    position: absolute;
+		    bottom: 84px;
+		    right: 0px;
+		}
+		/deep/.carousel-indicators {
+		    right: 0;
+		    bottom: 10%;
+		    left: 0px;
+		}
+		.col-sm-6.social_icons[_ngcontent-c0][_ngcontent-c0] {
+		    position: absolute;
+		    bottom: 5px;
+		    left: -18%;
+		    z-index: 9999;
+		    width: 100%;
+		}
+		.social_icons ul{
+			display:inline-block;
+		}
+		.social_icons[_ngcontent-c0] li[_ngcontent-c0]{
+			padding-left: 9px;
+		}
+		
+	}
+	@media (min-width: 901px) and (max-width: 1024px) {
+		.inner-decor-section[_ngcontent-c0] {
+		    float: left;
+		    position: absolute;
+		    width: 100%;
+		    top: 146px;
+		    left: 0px;
+		}
+		div#basicExampleNav {
+			padding-top: 36px;
+		}
+		.navbar-nav[_ngcontent-c0] li[_ngcontent-c0] {
+			display: inline-block !important;
+			padding-left: 20px;
+		}
+		.plus-icon[_ngcontent-c0]{
+			right: -1%;
+		    z-index: 999999;
+		    bottom: 1%;
+		}
+		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0]{
+			font-size: 39px;
+			width: 80%;
+		}
+		ul.navbar-nav[_ngcontent-c0] {
+		    position: absolute;
+		    right: 0px;
+		    display: inline-block;
+		    top: -14px;
+		}
+		/deep/span.icon-prev.carousel-control-prev-icon {
+		    bottom: 93px;
+		    position: absolute;
+		    left: 0px;
+		}
+		/deep/span.icon-next.carousel-control-next-icon {
+		    position: absolute;
+		    bottom: 84px;
+		    right: 0px;
+		}
+		/deep/.carousel-indicators {
+		    right: 0;
+		    bottom: 10%;
+		    left: 0px;
+		}
+		.col-sm-6.social_icons[_ngcontent-c0][_ngcontent-c0] {
+		    position: absolute;
+		    bottom: 5px;
+		    left: -18%;
+		    z-index: 9999;
+		    width: 100%;
+		}
+		.social_icons ul{
+			display:inline-block;
+		}
+		.social_icons[_ngcontent-c0][_ngcontent-c0] li[_ngcontent-c0][_ngcontent-c0] {
+			padding-left: 8px;
+		}
+		
+	}
+	@media (min-width: 1025px) and (max-width: 1244px) {
+
+		.inner-decor-section[_ngcontent-c0] {
+		    float: left;
+		    position: absolute;
+		    width: 100%;
+		    top: 146px;
+		    left: 0px;
+		}
+		div#basicExampleNav {
+			padding-top: 36px;
+		}
+		.navbar-nav[_ngcontent-c0] li[_ngcontent-c0] {
+			display: inline-block !important;
+			padding-left: 20px;
+		}
+		.plus-icon[_ngcontent-c0]{
+			right: -1%;
+		    z-index: 999999;
+		    bottom: 1%;
+		}
+		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0]{
+			font-size: 39px;
+			width: 80%;
+		}
+		ul.navbar-nav[_ngcontent-c0] {
+		    position: absolute;
+		    right: 0px;
+		    display: inline-block;
+		    top: -14px;
+		}
+		/deep/span.icon-prev.carousel-control-prev-icon {
+		    bottom: 93px;
+		    position: absolute;
+		    left: 0px;
+		}
+		/deep/span.icon-next.carousel-control-next-icon {
+		    position: absolute;
+		    bottom: 84px;
+		    right: 0px;
+		}
+		/deep/.carousel-indicators {
+		    right: 0;
+		    bottom: 10%;
+		    left: 0px;
+		}
+		.col-sm-6.social_icons[_ngcontent-c0][_ngcontent-c0] {
+		    position: absolute;
+		    bottom: 5px;
+		    left: -18%;
+		    z-index: 9999;
+		    width: 100%;
+		}
+		.social_icons ul{
+			display:inline-block;
+		}
+		.social_icons[_ngcontent-c0] li[_ngcontent-c0]{
+			padding-left: 9px;
+		}
 	}
