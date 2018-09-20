@@ -304,16 +304,16 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 
 /*responsive view */
 	@media (min-width: 320px) and (max-width: 480px) { 
-		.inner-decor-section[_ngcontent-c0] {
-			float: left;
-			position: absolute;
-			width: 100%;
-			top: 71px;
-			left: 2px;
+		.inner-decor-section[_ngcontent-c0][_ngcontent-c0] {
+		    float: left;
+		    position: absolute;
+		    width: 100%;
+		    top: 88px;
+		    left: 2px;
 		}
 		.inner-decor-section h1 {
 		    font-size: 25px;
-		    width: 79%;
+		    width: 82%;
 		}
 		.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
 			left: 14px;
@@ -361,8 +361,8 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			border-radius: 100%;
 			padding: 9px 13px 10px 11px;
 			right: 46%;
-			z-index: 999999;
-			bottom: -35%;
+		    z-index: 999999;
+		    bottom: -37%;
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -431,7 +431,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 
 		.example-large-box[_ngcontent-c0] {
-			height: 133px !important;
+			height: 117px !important;
 		}
 		.icons-wall[_ngcontent-c0] {
 			background-color: transparent;
@@ -622,11 +622,20 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			position: absolute;
 			width: 100%;
 			top: 100px;
-			left: 61px;
+			left: 2px;
+		}/*
+		.text-section{
+			
+		}*/
+		.col-sm-6{
+			width:100% !important;
+			max-width:100% !important;
+			flex: 0 0 100% !important;
 		}
 		.inner-decor-section[_ngcontent-c0] h1[_ngcontent-c0] {
 			font-size: 34px;
 			padding-left: 20px;
+			width: 71%;
 		}
 		.navbar-dark[_ngcontent-c0] .navbar-brand[_ngcontent-c0]{
 			left: 14px;
@@ -638,30 +647,24 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		button.btn.read-btn.waves-light[_ngcontent-c0]{
 			font-size: 15px;
 			margin-top: 0px;
-			width: 110px;
-				height: 48px;
-				margin-left: 31px;
 
 		}
 		button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
 			font-size: 15px;
 			margin-top: 0px;
-			width: 110px;
-				height: 48px;
 		}
 		.container.image_slider{
 			right: 0px;
 		}
-		.text-section{
-			height:550px;
-			width: 100%;
+		.text-section[_ngcontent-c0]{
+			height:501px;
 		}
 		/deep/.carousel-inner{
 			height:auto;
 			top: 45px;;
 			padding-right:20px;
 		}
-		.slider-section{
+		.slider-section[_ngcontent-c0]{
 			height:auto;
 			top:45px;
 			background-color: transparent;
@@ -679,9 +682,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			position: absolute;
 			border-radius: 100%;
 			padding: 9px 13px 10px 11px;
-			right: 28%;
+			right: 50%;
 		    z-index: 999999;
-		    bottom: -40%;
+		    bottom: -29%;
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -750,7 +753,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 
 		.example-large-box[_ngcontent-c0] {
-			height: 144px !important;
+			height: 169px !important;
 		}
 		.icons-wall[_ngcontent-c0] {
 			background-color: transparent;
@@ -777,7 +780,6 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		.carousel-caption{
 			bottom: 0px;
 		}
-
 	}
 	@media (min-width: 768px) and (max-width: 900px) {
 
@@ -838,6 +840,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		.social_icons[_ngcontent-c0] li[_ngcontent-c0]{
 			padding-left: 9px;
 		}
+		.col-sm-6 {
+		     max-width: 100%; 
+		}
 		
 	}
 	@media (min-width: 901px) and (max-width: 1024px) {
@@ -897,6 +902,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 		.social_icons[_ngcontent-c0][_ngcontent-c0] li[_ngcontent-c0][_ngcontent-c0] {
 			padding-left: 8px;
+		}
+		.col-sm-6 {
+		     max-width: 100%; 
 		}
 		
 	}
