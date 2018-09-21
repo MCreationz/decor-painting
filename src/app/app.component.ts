@@ -8,6 +8,7 @@ import {
   keyframes
   // ...
 } from '@angular/animations';
+import * as $ from 'jquery';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -73,16 +74,16 @@ export class AppComponent {
 	isOpen = true;
     status: 'active' | 'inactive' = 'inactive';
   	isShown = false;
- 	$(document).ready(function(){
-  		 this.isOpen = !this.isOpen;
-        if (this.status === 'active') {
-           this.status = 'inactive';
-        } else {
-         this.status = 'active';
-        }
-        this.isShown = !this.isShown;
-  	});
-  	constructor(){
+  	ngOnInit() {
+	 	$(document).ready(function(){
+	  		this.isOpen = !this.isOpen;
+	        if (this.status === 'active') {
+	           this.status = 'inactive';
+	        } else {
+	         this.status = 'active';
+	        }
+	        this.isShown = !this.isShown;
+	  	});
   	}
   
 }
