@@ -62,7 +62,7 @@ import {
   	trigger('button-animate', [
 	  transition(':enter', [
 	    style({ opacity: 0 }),
-	    animate('5s', style({ opacity: 1 })),
+	    animate('.9s', style({ opacity: 1 })),
 	  ]),
 	]),
   ]
@@ -82,5 +82,7 @@ export class AppComponent {
         }
         this.isShown = !this.isShown;
   	});
+  	constructor(){
+  	}
   
 }
