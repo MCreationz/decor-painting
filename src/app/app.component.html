@@ -52,7 +52,7 @@
               </mat-tab>
               <mat-tab label="Popular">
                 <div class="example-large-box mat-elevation-z4">
-                 <p class="creative-txt" [@flyInOut]="fly">
+                 <p class="creative-txt" [@flyInOut]="status">
                   Get creative wall painting designs & ideas for a stylish 
                   home decor.Latest home painting colour ideas & designs 
                   for bedrooms, living rooms...
@@ -62,11 +62,11 @@
           </mat-tab-group>
         </div>
 
-        <button type="button" class="btn read-btn waves-light" [@button-animate]="btn" data-toggle="modal" data-target="#basicExample"
+        <button type="button" class="btn read-btn waves-light" [@button-animate]="in" data-toggle="modal" data-target="#basicExample"
         mdbWavesEffect>
         Read More
       </button>
-      <button type="button" class="btn btn-primary watch-video-btn waves-light" data-toggle="modal"  [@button-animate]="btn" data-target="#basicExample"
+      <button type="button" class="btn btn-primary watch-video-btn waves-light" data-toggle="modal"  [@button-animate]="in" data-target="#basicExample"
       mdbWavesEffect>
       Watch Video
     </button>
