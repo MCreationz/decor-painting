@@ -62,13 +62,14 @@ import {
   	trigger('button-animate', [
 	  transition(':enter', [
 	    style({ opacity: 0 }),
-	    animate('1s', style({ opacity: 1 })),
+	    animate('5s', style({ opacity: 1 })),
 	  ]),
 	]),
   ]
 })
 export class AppComponent {
- 	 title = 'decor-painting';
+ 	title = 'decor-painting';
+
 	isOpen = true;
     status: 'active' | 'inactive' = 'inactive';
   	isShown = false;
@@ -80,6 +81,6 @@ export class AppComponent {
          this.status = 'active';
         }
         this.isShown = !this.isShown;
-  	})
+  	});
   
 }
