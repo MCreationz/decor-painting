@@ -300,7 +300,11 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 	background-color:white;
 }
 
-
+/* Animation css  starts */
+.text-heading{
+ visibility: visible; animation-name: fadeIn;
+}
+/* animation css ends*/
 
 /*responsive view */
 	@media (min-width: 320px) and (max-width: 480px) { 
