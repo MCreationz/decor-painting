@@ -19,10 +19,11 @@
 	background-color:#fefefe;
 }
 .slider-section{
-	height:100vh;
+	height: 843px;;
 	position: relative;
 	background-color:#8ac5f2;
 	float:right;
+	/*min-height:900px;*/
 }
 .navbar-dark .navbar-nav .nav-link{
 	color:black;
@@ -75,7 +76,7 @@ ul.navbar-nav {
 	/* margin: 0px; */
 	position: absolute;
 	width: 70%;
-	top: 189px;
+	top: 172px;
 	left: 77px;
 
 }
@@ -139,14 +140,15 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 }
 .plus-icon{
 	background-color: #df573f;
-	font-size: 31px;
-	color: white;
-	position: absolute;
-	border-radius: 100%;
-	padding: 22px 22px 21px 20px;
-	right: -113px;
-	z-index: 999999;
-	bottom: 107px;
+    font-size: 31px;
+    color: white;
+    position: absolute;
+    border-radius: 100%;
+    padding: 8px 17px 9px 16px;
+    right: -113px;
+    z-index: 999999;
+    bottom: 96px;
+
 }
 .container.image_slider {
 	position: absolute;
@@ -182,10 +184,11 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 .facebook{
 	background-color:#485992;
 	border-radius:100%;
-	padding: 8px 6px 7px 7px;
+	padding: 6px 10px 7px 11px;
 	position:absolute;
-	right: -1px;
+	right: -5px;
 	bottom: 131px;
+	box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.4);
 }
 .artwork{
 	font-family: myriadpro;
@@ -216,7 +219,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 	color:#8ac5f2;
 }
 /deep/span.icon-prev.carousel-control-prev-icon {
-	bottom: -55px;
+	bottom: -45px;
 	position: absolute;
 	left: 356px;
 
@@ -240,7 +243,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 }
 /deep/span.icon-next.carousel-control-next-icon {
 	position: absolute;
-	bottom: -60px;
+	bottom: -45px;
 	right: 7px;
 
 }
@@ -255,7 +258,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 
 /deep/.carousel-indicators{
 	right: 0;
-	bottom: -9%;
+	bottom: -8%;
 	left: 57%;
 }
 .example-small-box, .example-large-box {

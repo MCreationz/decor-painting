@@ -73,7 +73,7 @@ export class AppComponent {
 
 	isOpen = true;
     status: 'active' | 'inactive' = 'inactive';
-  	isShown = false;
+  	isShown = "false";
   	ngOnInit() {
 	 	$(document).ready(function(){
 	  		this.isOpen = !this.isOpen;
