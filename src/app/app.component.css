@@ -1117,3 +1117,11 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		    bottom: 136px;
 		}
 	}
+@media (min-width: 1401px) and (max-width: 1500px) {
+	.col-sm-6.social_icons[_ngcontent-c0][_ngcontent-c0] {
+    position: absolute;
+    bottom: 33px;
+    left: -17%;
+    z-index: 9999;
+	}
+}
