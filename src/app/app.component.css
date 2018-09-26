@@ -103,15 +103,20 @@ ul.navbar-nav {
 .border-dark-popular{
 	color:#eeeeee;
 }
-.creative-txt{
-	width: 100%;
-	font-family: Montserrat;
-	font-weight:regular;
-	padding-left: 0px;
-	font-size:18px;
-	color:#6c6c6c;
-	line-height:30px;
-	font-weight:regular;
+.creative-txt[_ngcontent-c0] {
+    width: 86%;
+    font-family: Montserrat;
+    font-weight: regular;
+    padding-left: 0px;
+    padding: 21px;
+    font-size: 18px;
+    color: #6c6c6c;
+    line-height: 38px;
+    font-weight: regular;
+}
+/deep/.mat-tab-body-content {
+    height: 100%;
+    overflow: hidden;
 }
 .heart-icon{
 	color:#e75b5a !important;
@@ -260,25 +265,6 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 	right: 0;
 	bottom: -8%;
 	left: 57%;
-}
-.example-small-box, .example-large-box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 16px;
-	padding: 16px;
-	border-radius: 8px;
-}
-
-.example-small-box {
-	height: 100px;
-	width: 100px;
-}
-
-.example-large-box {
-	height: 181px !important;
-	width: 300px;
-	padding: 0px;
 }
 /* customize mat tabs*/
 /deep/.mat-elevation-z4{
@@ -1049,7 +1035,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 		.col-sm-6.social_icons[_ngcontent-c0][_ngcontent-c0] {
 		    position: absolute;
-		    bottom: -18px;
+		    bottom: -36px;
 		    left: -18%;
 		    z-index: 9999;
 		    width: 100%;
@@ -1093,7 +1079,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
     	}
 	}
 
-	@media (min-width: 1245px) and (max-width: 1314px) {
+	@media (min-width: 1245px) and (max-width: 1400px) {
 		slide.ng-tns-c0-0.item.carousel-item {
    			height: 700px;
 		}
