@@ -1098,7 +1098,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		/deep/span.icon-prev.carousel-control-prev-icon {
 		    bottom: -42px;
 		    position: absolute;
-		    left: 350px;
+		    left: 350px !important;
 		}
 		/deep/span.icon-next.carousel-control-next-icon {
 		    position: absolute;
