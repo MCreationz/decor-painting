@@ -305,6 +305,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		    top: 88px;
 		    left: 2px;
 		}
+		.dummy-text{
+			height:135px;
+		}
 		.inner-decor-section h1 {
 		    font-size: 25px;
 		    width: 82%;
@@ -360,7 +363,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		    padding: 9px 13px 10px 11px;
 		    right: 46%;
 		    z-index: 999999;
-		    bottom: -31%
+		    bottom: -44%;
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -524,7 +527,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			padding: 9px 13px 10px 11px;
 			right: 50%;
 		    z-index: 999999;
-		    bottom: -25%;
+		    bottom: -35%;
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -690,7 +693,10 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			padding: 9px 13px 10px 11px;
 			right: 50%;
 		    z-index: 999999;
-		    bottom: -28%;
+		    bottom: -50%;
+		}
+		.dummy-text{
+			height:143px;
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -1118,7 +1124,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		    position: absolute;
 		    border-radius: 100%;
 		    padding: 8px 17px 9px 16px;
-		    right: -104px;
+		    right: -116px;
 		    z-index: 999999;
 		    bottom: 136px;
 		}

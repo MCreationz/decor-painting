@@ -41,16 +41,23 @@
           <h1 class="text-heading animated fadeIn mb-4 " [@flyInOut]="status" > Wall Decor Ideas & Paint Color Guide</h1>
           <div class="tabs">
               <mat-tab-group>
-                <mat-tab label="Recents"> <p class="creative-txt" [@flyInOut]="status">
-                  Get creative wall painting designs & ideas for a stylish 
-                  home decor.Latest home painting colour ideas & designs 
-                  for bedrooms, living rooms...
-                </p></mat-tab>
-                <mat-tab label="Popular"><p class="creative-txt" [@flyInOut]="status">
-                  Get creative wall painting designs & ideas for a stylish 
-                  home decor.Latest home painting colour ideas & designs 
-                  for bedrooms, living rooms...
-                </p> </mat-tab>
+                <mat-tab label="Recents">
+                  <div class="dummy-text">
+                     <p class="creative-txt" [@flyInOut]="status">
+                      Get creative wall painting designs & ideas for a stylish 
+                      home decor.Latest home painting colour ideas & designs 
+                      for bedrooms, living rooms...
+                    </p>
+                  </div>
+              </mat-tab>
+                <mat-tab label="Popular">
+                  <div class="dummy-text">
+                    <p class="creative-txt" [@flyInOut]="status">
+                      Get creative wall painting designs & ideas for a stylish 
+                      home decor.Latest home painting colour ideas & designs 
+                      for bedrooms, living rooms...
+                    </p>
+                  </div> </mat-tab>
               </mat-tab-group>
           <!--   <mat-tab-group dynamicHeight>
               <mat-tab label="Recents" class="border-dark-recent">
@@ -133,7 +140,7 @@
    </div>
  </slide>
  <slide>
-  <img src="./decor-painting/assets/images/decor.png"   width="100%" class="img-responsive center-block slide-img">
+  <img src="/decor-painting/assets/images/decor.png"   width="100%" class="img-responsive center-block slide-img">
   <div class="carousel-caption">
     <h4 class="artwork">Cool ArtWork</h4>
     <p class="artdesign">Designed by  <span class="author-name" >Anna Sullivan</span></p>
