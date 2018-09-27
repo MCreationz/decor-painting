@@ -317,13 +317,17 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			top: 14px;
 		}
 		button.btn.read-btn.waves-light[_ngcontent-c0]{
-			font-size: 15px;
+			font-size: 13px;
 			margin-top: 0px;
+			width: 32%;
+    		height: 38px;
 
 		}
 		button.btn.btn-primary.watch-video-btn.waves-light[_ngcontent-c0]{
-			font-size: 15px;
+			font-size: 13px;
 			margin-top: 0px;
+			width: 32%;
+    		height: 38px;
 		}
 		.container.image_slider{
 			right: 0px;
@@ -347,16 +351,16 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		.slide-img{
 			width:100%;
 		}
-		.plus-icon {
-			background-color: #df573f;
-			font-size: 31px;
-			color: white;
-			position: absolute;
-			border-radius: 100%;
-			padding: 9px 13px 10px 11px;
-			right: 46%;
+		.plus-icon[_ngcontent-c0] {
+		    background-color: #df573f;
+		    font-size: 31px;
+		    color: white;
+		    position: absolute;
+		    border-radius: 100%;
+		    padding: 9px 13px 10px 11px;
+		    right: 46%;
 		    z-index: 999999;
-		    bottom: -34%;
+		    bottom: -31%
 		}
 		.col-sm-6.social_icons {
 			position: unset !important;
@@ -400,7 +404,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 		}
 		/deep/.carousel-indicators {
 		    right: auto;
-		    bottom: 14px;
+		    bottom: 34px;
 		    position: absolute;
 		    left: 19%;
 		}
@@ -417,7 +421,7 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			font-size:16px;
 		}
 		.creative-txt[_ngcontent-c0]{
-			font-size: 15px;
+   			 font-size: 14px;
 		}
 		ul.navbar-nav {
 			float: right;
@@ -430,8 +434,9 @@ button.btn.btn-primary.watch-video-btn.waves-light{
 			width: 98%;
 		}
 
-		.example-large-box[_ngcontent-c0] {
-			height: 117px !important;
+		.creative-txt[_ngcontent-c0][_ngcontent-c0] {
+		    line-height: 21px;
+		    font-weight: regular;
 		}
 		.icons-wall[_ngcontent-c0] {
 			background-color: transparent;
